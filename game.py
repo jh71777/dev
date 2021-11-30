@@ -16,5 +16,4 @@ while stress < 100 and DailyConfirmedCases < 5000 or allDeath <10000:
     print(weeks, '주차, 스트레스 지수:', stress, ', 일일 확진자 수:', DailyConfirmedCases, ', 치료중인 환자 수:', allConfirmedCases, ', 일일 사망자 수:', dailyDeath, ', 전체 사망자 수:', allDeath, ', 해외 입국자 수:', entrance)
     if weeks == 0:
         print('국내에서 코로나 19 확진자가 처음 검출 되었습니다. 첫 검출 확진자 수는 ',entrance,'로 모두 해외 입국자입니다.' )
-    
-
+    distancingStages = int(input('이번주의 거리두기 단계를 정해 주세요'))
